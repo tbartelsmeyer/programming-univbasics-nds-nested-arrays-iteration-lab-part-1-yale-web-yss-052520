@@ -3,8 +3,6 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   src.length.times do |row_i|
-    puts row_i
+    src[row_i].length.times do |column_i
   end
 end
-
-find_even_values([1,2,3])
